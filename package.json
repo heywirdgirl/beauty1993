@@ -6,15 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "heywirdgirl",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   },
   "keywords": [
     "example",
     "heroku"
-  ],
-  "author": "heywirdgirl",
-  "license": "MIT"
+  ]
 }
