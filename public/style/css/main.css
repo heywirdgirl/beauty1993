@@ -283,7 +283,7 @@ button {
 }
 
 .features {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/background-img-1.png") center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../asset/images.jpg") center/cover no-repeat fixed;
 }
 @media only screen and (min-width: 768px) {
   .features .features-wrapper {
@@ -496,7 +496,7 @@ button {
 
 .newsletter {
   height: 60vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/background-img-2.png") center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../asset/images2.jpg") center/cover no-repeat fixed;
   text-align: center;
   padding: 5rem 0;
 }
