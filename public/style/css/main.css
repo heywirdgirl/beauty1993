@@ -60,7 +60,7 @@ button {
   flex-direction: column;
   justify-content: stretch;
 }
-.header video {
+.header .bg {
   object-fit: cover;
   width: 100%;
   height: 100vh;
@@ -266,7 +266,8 @@ button {
 }
 @media screen and (min-width: 500px) {
   .header .header-banner__subtitle {
-    font-size: 1.5rem;
+    font-size: 2.8rem;
+    font-weight: 600;
   }
 }
 .header .header-banner__title {
@@ -348,14 +349,14 @@ button {
 @media only screen and (min-width: 768px) {
   .product .product-wrapper .product__item-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 6rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
   }
 }
 .product .product-wrapper .product__item-wrapper .product__item {
   border-radius: 1.6rem;
-  margin: 5rem 0;
-  padding: 1.5rem 0;
+  margin: 2rem 0;
+  padding: 0 0 6rem 0;
   text-align: center;
   position: relative;
   transition: all 0.5s ease-in-out;
@@ -363,28 +364,17 @@ button {
 .product .product-wrapper .product__item-wrapper .product__item:hover {
   background: #f1f1f1;
 }
-.product .product-wrapper .product__item-wrapper .product__item:first-of-type {
-  margin: 2rem 0;
-}
-.product .product-wrapper .product__item-wrapper .product__item:last-of-type {
-  margin-bottom: 2rem;
-}
-@media only screen and (min-width: 768px) {
-  .product .product-wrapper .product__item-wrapper .product__item:last-of-type {
-    margin-top: 2rem;
-  }
-}
 .product .product-wrapper .product__item-wrapper .product__item__img {
   width: 16rem;
   margin: 0 auto;
 }
 @media screen and (min-width: 500px) {
   .product .product-wrapper .product__item-wrapper .product__item__img {
-    width: 20rem;
+    width: 100%;
   }
 }
 .product .product-wrapper .product__item-wrapper .product__item__info {
-  padding: 2rem;
+  padding: 1rem;
 }
 .product .product-wrapper .product__item-wrapper .product__item .title {
   font-size: 1.8rem;
@@ -636,13 +626,13 @@ button {
 .button__product-add {
   border-radius: 1.6rem;
   border: none;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   background: #534a4b;
   font-size: 1.6rem;
   color: #ffffff;
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 4rem;
   transform: translate(-50%, 70%);
   transition: all 0.5s ease-in-out;
 }
