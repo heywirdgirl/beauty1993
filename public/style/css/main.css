@@ -337,12 +337,41 @@ button {
   }
 }
 
-.product {
+.product-home {
   padding: 5rem 0;
 }
+.product-home .product__list {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+.product-home .product__list::before {
+  content: "";
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fb-heart.gif);
+  background-size: contain;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.1rem;
+  margin-right: 0.2rem;
+}
+.product-home .product__list a {
+  display: inline-block;
+  padding: 1rem;
+}
+.product-home .product__list span {
+  display: inline-block;
+  padding-left: 2rem;
+}
+.product-home .product__list a:hover {
+  background: #aed9e5;
+  text-decoration: underline;
+}
+
 .product .product-wrapper .product__title {
+  margin-top: 3rem;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -365,7 +394,7 @@ button {
   background: #f1f1f1;
 }
 .product .product-wrapper .product__item-wrapper .product__item__img {
-  width: 16rem;
+  width: 100%;
   margin: 0 auto;
 }
 @media screen and (min-width: 500px) {
@@ -584,8 +613,13 @@ button {
 }
 
 .container {
-  width: 90vw;
+  width: 100vw;
   margin: 0 auto;
+}
+@media screen and (min-width: 500px) {
+  .container {
+    width: 90vw;
+  }
 }
 
 .center {
